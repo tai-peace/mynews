@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 @extends('layouts.admin')
 @section('title', 'ニュースの新規作成')
 
@@ -23,7 +22,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                         <h2>ニュース新規作成</h2>
+                        <label class="col-md-2">本文</label>
                         <div class="col-md-10">
                             <textarea class="form-control" name="body" rows="20">{{ old('body') }}</textarea>
                         </div>
